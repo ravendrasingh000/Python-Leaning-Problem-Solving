@@ -654,3 +654,18 @@ B = []
 for i in range(len(A)-1,-1,-1):
     B.append(A[i])
 print(B)
+
+
+
+# check palindrom in string
+a = input("Enter Your Text: ")
+count = 0
+
+for i in range(len(a)//2):
+    if a[i] == a[-(i+1)]:
+        count += 1
+
+if count == len(a)//2:
+    print("YES")
+else:
+    print("NO")
