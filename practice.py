@@ -635,4 +635,22 @@
 
 
 
+# Practice Quesion 
+# class Account:
+#     def __init__(self, bal, acc):
+#         self.balance = bal
+#         self.account = acc
 
+
+# user_1 = Account(100, 12345678)
+# print(user_1.balance, user_1.account)
+
+
+
+#reverse string, output in list
+A = "HELLO"
+B = []
+
+for i in range(len(A)-1,-1,-1):
+    B.append(A[i])
+print(B)
