@@ -648,24 +648,43 @@
 
 
 #reverse string, output in list
-A = "HELLO"
-B = []
+# A = "HELLO"
+# B = []
 
-for i in range(len(A)-1,-1,-1):
-    B.append(A[i])
-print(B)
+# for i in range(len(A)-1,-1,-1):
+#     B.append(A[i])
+# print(B)
 
 
 
 # check palindrom in string
-a = input("Enter Your Text: ")
-count = 0
+# a = input("Enter Your Text: ")
+# count = 0
 
-for i in range(len(a)//2):
-    if a[i] == a[-(i+1)]:
-        count += 1
+# for i in range(len(a)//2):
+#     if a[i] == a[-(i+1)]:
+#         count += 1
 
-if count == len(a)//2:
-    print("YES")
-else:
-    print("NO")
+# if count == len(a)//2:
+#     print("YES")
+# else:
+#     print("NO")
+
+
+
+# Print Duplicate character
+s = input("Write Your Word: ")
+already_checked = []
+
+for i in range(len(s)):
+    count = 0
+    for j in range(len(s)):
+        if s[i] == s[j]:
+            count += 1
+    if count > 1 and s[i] not in already_checked:
+        print("Duplicate character:", s[i])
+        already_checked.append(s[i])
+
+
+
+
