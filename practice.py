@@ -673,18 +673,27 @@
 
 
 # Print Duplicate character
-s = input("Write Your Word: ")
-already_checked = []
+# s = input("Write Your Word: ")
+# already_checked = []
 
-for i in range(len(s)):
-    count = 0
-    for j in range(len(s)):
-        if s[i] == s[j]:
-            count += 1
-    if count > 1 and s[i] not in already_checked:
-        print("Duplicate character:", s[i])
-        already_checked.append(s[i])
-
-
+# for i in range(len(s)):
+#     count = 0
+#     for j in range(len(s)):
+#         if s[i] == s[j]:
+#             count += 1
+#     if count > 1 and s[i] not in already_checked:
+#         print("Duplicate character:", s[i])
+#         already_checked.append(s[i])
 
 
+
+#return string number of Times
+s = input("Enter Your string: ")
+n = int(input("Enter Number of times: "))
+string = ""
+
+for i in range(n):
+    string += s
+
+print(string)
+ 
