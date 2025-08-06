@@ -688,12 +688,19 @@
 
 
 #return string number of Times
-s = input("Enter Your string: ")
-n = int(input("Enter Number of times: "))
-string = ""
+# s = input("Enter Your string: ")
+# n = int(input("Enter Number of times: "))
+# string = ""
 
-for i in range(n):
-    string += s
+# for i in range(n):
+#     string += s
 
-print(string)
+# print(string)
  
+
+
+
+
+a = 5
+b = 9
+print("A") if a>b else print("B")
