@@ -706,6 +706,20 @@
 # print("A") if a>b else print("B")
 
 
-a = 332
-b = 330
-print("A") if a>b else print("=") if a == b else print("B")
+# a = 332
+# b = 330
+# print("A") if a>b else print("=") if a == b else print("B")
+
+
+
+
+# Cake Making 
+
+a, b = map(int, input().split())
+
+if a>b:
+    print((a-1)*b)
+elif a==b:
+    print((a-1)*b)
+else:
+    print((b-1)*a)
