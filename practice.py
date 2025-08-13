@@ -715,11 +715,26 @@
 
 # Cake Making 
 
-a, b = map(int, input().split())
+# a, b = map(int, input().split())
 
-if a>b:
-    print((a-1)*b)
-elif a==b:
-    print((a-1)*b)
-else:
-    print((b-1)*a)
+# if a>b:
+#     print((a-1)*b)
+# elif a==b:
+#     print((a-1)*b)
+# else:
+#     print((b-1)*a)
+
+
+# Brick Comparision
+
+t = int(input())
+for i in range(t):
+    n = int(input())
+    A = list(map(int, input().split()))
+    
+    current_index = 0  
+    for i in range(1, n):
+        if A[i] > A[current_index]:
+            current_index = i 
+    
+    print(current_index + 1)
