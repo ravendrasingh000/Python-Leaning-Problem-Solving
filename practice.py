@@ -727,14 +727,17 @@
 
 # Brick Comparision
 
-t = int(input())
-for i in range(t):
-    n = int(input())
-    A = list(map(int, input().split()))
+# t = int(input())
+# for i in range(t):
+#     n = int(input())
+#     A = list(map(int, input().split()))
     
-    current_index = 0  
-    for i in range(1, n):
-        if A[i] > A[current_index]:
-            current_index = i 
+#     current_index = 0  
+#     for i in range(1, n):
+#         if A[i] > A[current_index]:
+#             current_index = i 
     
-    print(current_index + 1)
+#     print(current_index + 1)
+
+
+
