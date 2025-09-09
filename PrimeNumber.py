@@ -10,19 +10,3 @@ else:
     print("Not Prime Number")
 
 
-
-
-
-
-# Other way to Solve
-import math
-
-n = int(input("Enter Your Number: "))
-
-for i in range(math.floor(n/2)):
-    if n % 2 == 0:
-        print("Not Prime Number")
-        break
-
-else:
-    print("Prime Number")
