@@ -1,8 +1,14 @@
-s = input("Enter Your Word: ")
-rs = ""
+# s = input("Enter Your Word: ")
+# rs = ""
 
-for i in range(len(s)-1,-1,-1):
-    a = s[i]
-    rs = rs + a
+# for i in range(len(s)-1,-1,-1):
+#     a = s[i]
+#     rs = rs + a
+# print(rs)
+
+
+
+
+s = input("Enter Your String: ")
+rs = s[::-1]
 print(rs)
-
