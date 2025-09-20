@@ -1,12 +1,22 @@
-num = 1534
+num = 153
 
+# power = len(str(num))
+# n = str(num)
+# sum = 0
+# for d in n:
+#     sum += int(d)**power
+
+# if num == sum:
+#     print(" Armstrong")
+# else:
+#     print("Not ArmStrong")
+
+
+
+
+# one liner
 power = len(str(num))
-n = str(num)
-sum = 0
-for d in n:
-    sum += int(d)**power
-
-if num == sum:
-    print(" Armstrong")
+if (num == sum(int(digit) ** power for digit in str(num))):
+    print("ArmStrong")
 else:
     print("Not ArmStrong")
