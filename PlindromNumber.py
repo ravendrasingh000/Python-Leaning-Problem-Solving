@@ -15,14 +15,22 @@
 #     print("Not Palindrome")
 
 
+# .................................................................................................
+
+
+# n = 123454321
+
+# num = str(n)
+
+# if num == num[::-1]:
+#     print("Palindrom")
+# else:
+#     print("Not Palindrome")
 
 
 
-n = 123454321
+# ......................................................................................................
 
-num = str(n)
 
-if num == num[::-1]:
-    print("Palindrom")
-else:
-    print("Not Palindrome")
+word = "madam"
+print(word == word[::-1])
