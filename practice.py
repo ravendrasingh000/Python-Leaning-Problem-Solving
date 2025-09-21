@@ -744,10 +744,18 @@
 # -----------------------------------------learning------------------------------------------------------
 
 # Arbitrary Arguments
-def student(*num):
-        add = sum(num) 
-        print(add)
+# def student(*num):
+#         add = sum(num) 
+#         print(add)
 
-student(9,6,85)
+# student(9,6,85)
 
 
+
+# Arbitrary Keyword Arguments
+def Student_info (**data):
+    for key,value in data.items():
+        print(f"{key}: {value}")
+
+
+Student_info(Name = "Ravin", Age = "22", City = "Gwalior")
