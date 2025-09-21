@@ -741,3 +741,13 @@
 
 
 
+# -----------------------------------------learning------------------------------------------------------
+
+# Arbitrary Arguments
+def student(*num):
+        add = sum(num) 
+        print(add)
+
+student(9,6,85)
+
+
