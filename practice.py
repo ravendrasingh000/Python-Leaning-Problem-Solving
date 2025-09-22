@@ -753,9 +753,25 @@
 
 
 # Arbitrary Keyword Arguments
-def Student_info (**data):
-    for key,value in data.items():
-        print(f"{key}: {value}")
+# def Student_info (**data):
+#     for key,value in data.items():
+#         print(f"{key}: {value}")
 
 
-Student_info(Name = "Ravin", Age = "22", City = "Gwalior")
+# Student_info(Name = "Ravin", Age = "22", City = "Gwalior")
+
+
+
+
+# binary search
+nums = [-1,0,3,5,9,12]
+target = 3
+
+for i in range(len(nums)):
+    if nums[i] == target:
+        print(i)
+        break
+
+
+# short way of binary search
+print(nums.index(3))
