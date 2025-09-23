@@ -764,14 +764,14 @@
 
 
 # binary search
-nums = [-1,0,3,5,9,12]
-target = 3
+# nums = [-1,0,3,5,9,12]
+# target = 3
 
-for i in range(len(nums)):
-    if nums[i] == target:
-        print(i)
-        break
+# for i in range(len(nums)):
+#     if nums[i] == target:
+#         print(i)
+#         break
 
 
 # short way of binary search
-print(nums.index(3))
+# print(nums.index(3))
