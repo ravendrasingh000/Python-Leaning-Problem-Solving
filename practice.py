@@ -775,3 +775,17 @@
 
 # short way of binary search
 # print(nums.index(3))
+
+
+
+
+
+# Q. Sum of the following series- 1 + 1/2 + 1/3 ....1/N
+
+
+n = 4
+sum = 0
+
+for i in range(1,n+1):
+    sum += 1/i
+print(sum)
