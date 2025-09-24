@@ -22,15 +22,18 @@ f = str1.lower()
 s = str2.lower()
 count = 0 
 
-for ch in f:
-    if ch in s:
-        count += 1
-        s = s.replace(ch, "", 1)
-    else:
-        print("Not Anagram")
-        break
-
-if count == len(f):
-    print("Anagram")
+if len(f) != len(s):
+    print("Not Anagram")
 else:
-    print("Not Anagram")         
+    for ch in f:
+        if ch in s:
+            count += 1
+            s = s.replace(ch, "", 1)
+        else:
+            print("Not Anagram")
+            break
+
+    if count == len(f):
+        print("Anagram")
+    else:
+        print("Not Anagram")         
